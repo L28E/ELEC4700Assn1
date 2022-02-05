@@ -138,6 +138,7 @@ s.FaceColor='interp';
 view(2);
 hold on;
 plot3(Px,Py,temp','.r');
+colorbar
 title("Temperature Map")
 colormap('parula')
 
